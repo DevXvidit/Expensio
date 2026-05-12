@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "132918446764",
+    "project_id": "expensio-daae2",
+    "storage_bucket": "expensio-daae2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132918446764:android:235637cbc775122f722d09",
+        "android_client_info": {
+          "package_name": "com.expensio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwdBaUzpn24QBgbxbAoePn_hRoW2Vt2Mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
