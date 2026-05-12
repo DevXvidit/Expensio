@@ -1,0 +1,4 @@
+/Users/admin/Projects/Expensio/android/app/.cxx/Debug/3j4pq42h/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/Users/admin/Projects/Expensio/android/app/.cxx/Debug/3j4pq42h/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/Users/admin/Projects/Expensio/android/app/.cxx/Debug/3j4pq42h/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/Users/admin/Projects/Expensio/android/app/.cxx/Debug/3j4pq42h/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir

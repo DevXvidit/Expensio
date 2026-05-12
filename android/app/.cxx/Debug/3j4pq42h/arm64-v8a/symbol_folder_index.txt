@@ -1,0 +1,1 @@
+/Users/admin/Projects/Expensio/android/app/build/intermediates/cxx/Debug/3j4pq42h/obj/arm64-v8a
