@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { useAuthStore } from './store/authStore';
-import { firebaseAuth } from './services/firebase';
+import auth from '@react-native-firebase/auth';
 
 const queryClient = new QueryClient();
 
@@ -11,7 +11,7 @@ export const AppWrapper = ({ children }: { children: React.ReactNode }) => {
 
 
   useEffect(() => {
-    const unsubscribe = firebaseAuth.onAuthStateChanged((user) => {
+    const unsubscribe = auth().onAuthStateChanged((user) => {
       setUser(user);
       setLoading(false);
     });
