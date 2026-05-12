@@ -2,6 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { useAuthStore } from '../store/authStore';
 import AuthNavigator from './AuthNavigator';
+import MainNavigator from './MainNavigator';
 import { View, ActivityIndicator, StyleSheet } from 'react-native';
 import { COLORS } from '../theme';
 
@@ -18,13 +19,7 @@ const RootNavigator = () => {
 
   return (
     <NavigationContainer>
-      {user ? (
-        // For now, we point to Auth until Main is ready
-        // But logic-wise: user ? <MainNavigator /> : <AuthNavigator />
-        <AuthNavigator /> 
-      ) : (
-        <AuthNavigator />
-      )}
+      {user ? <MainNavigator /> : <AuthNavigator />}
     </NavigationContainer>
   );
 };

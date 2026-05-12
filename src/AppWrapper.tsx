@@ -15,8 +15,6 @@ export const AppWrapper = ({ children }: { children: React.ReactNode }) => {
       setUser(user);
       setLoading(false);
     });
-
-
     return unsubscribe;
   }, [setUser, setLoading]);
 

@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { 
-  View, 
-  Text, 
-  StyleSheet, 
-  TouchableOpacity, 
-  KeyboardAvoidingView, 
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  KeyboardAvoidingView,
   Platform,
   ScrollView,
   Alert
@@ -46,7 +45,6 @@ const LoginScreen = ({ navigation }: any) => {
     setLoading(true);
     try {
       await auth().signInWithEmailAndPassword(data.email, data.password);
-      // Auth state change will be handled by the root navigator
     } catch (error: any) {
       console.error(error);
       let message = 'An unexpected error occurred';
@@ -69,7 +67,7 @@ const LoginScreen = ({ navigation }: any) => {
         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
         style={styles.container}
       >
-        <ScrollView 
+        <ScrollView
           contentContainerStyle={styles.scrollContent}
           showsVerticalScrollIndicator={false}
         >
@@ -112,14 +110,14 @@ const LoginScreen = ({ navigation }: any) => {
               )}
             />
 
-            <TouchableOpacity 
+            <TouchableOpacity
               onPress={() => navigation.navigate('ForgotPassword')}
               style={styles.forgotPassword}
             >
               <Text style={styles.forgotPasswordText}>Forgot Password?</Text>
             </TouchableOpacity>
 
-            <Button 
+            <Button
               title="Sign In"
               onPress={handleSubmit(onLogin)}
               loading={loading}

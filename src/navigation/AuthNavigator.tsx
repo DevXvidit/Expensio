@@ -1,6 +1,6 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { AuthStackParamList } from './types';
+import { AuthStackParamList, SCREENS } from './types';
 import LoginScreen from '../screens/auth/LoginScreen';
 import RegisterScreen from '../screens/auth/RegisterScreen';
 
@@ -14,8 +14,8 @@ const AuthNavigator = () => {
         animation: 'slide_from_right',
       }}
     >
-      <Stack.Screen name="Login" component={LoginScreen} />
-      <Stack.Screen name="Register" component={RegisterScreen} />
+      <Stack.Screen name={SCREENS.AUTH.LOGIN} component={LoginScreen} />
+      <Stack.Screen name={SCREENS.AUTH.REGISTER} component={RegisterScreen} />
     </Stack.Navigator>
   );
 };
