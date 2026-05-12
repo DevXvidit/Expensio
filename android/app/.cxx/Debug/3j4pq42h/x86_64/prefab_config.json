@@ -4,9 +4,9 @@
   "packages": [
     "/Users/admin/Projects/Expensio/node_modules/react-native-nitro-modules/android/build/intermediates/prefab_package/debug/prefab",
     "/Users/admin/Projects/Expensio/node_modules/react-native-worklets/android/build/intermediates/prefab_package/debug/prefab",
-    "/Users/admin/.gradle/caches/9.3.1/transforms/2321ffcfab7439b6200de4724cf7ba76/transformed/react-android-0.85.3-debug/prefab",
+    "/Users/admin/.gradle/caches/9.3.1/transforms/9c499b1ea91bf17829f20e3939a2ae44/transformed/react-android-0.85.3-debug/prefab",
     "/Users/admin/Projects/Expensio/node_modules/react-native-reanimated/android/build/intermediates/prefab_package/debug/prefab",
-    "/Users/admin/.gradle/caches/9.3.1/transforms/cd51c00f5529eb545445290c3eb1d1b6/transformed/hermes-android-250829098.0.10-debug/prefab",
-    "/Users/admin/.gradle/caches/9.3.1/transforms/3c01aea05d2737e987399f1309ae090e/transformed/fbjni-0.7.0/prefab"
+    "/Users/admin/.gradle/caches/9.3.1/transforms/7d0f26975f285b3a9c9e49dffaf929cd/transformed/hermes-android-250829098.0.10-debug/prefab",
+    "/Users/admin/.gradle/caches/9.3.1/transforms/320e0b46f31b684057f113001bd4bb00/transformed/fbjni-0.7.0/prefab"
   ]
 }
