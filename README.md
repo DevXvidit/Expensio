@@ -6,8 +6,7 @@
 
 **Expensio** is a high-fidelity, production-grade expense tracking application built with React Native CLI. It focuses on speed, modularity, and a premium user experience.
 
-## 🚀 Overview
-The project is a 5-day implementation of a robust financial dashboard, featuring real-time data synchronization with Firebase and a state-of-the-art UI using NativeWind and Reanimated.
+## 🚀 Overview.
 
 ### 📱 Feature Roadmap (4 Key Screens)
 
